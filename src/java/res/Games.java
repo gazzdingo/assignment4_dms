@@ -9,12 +9,13 @@ import com.google.gson.Gson;
 import java.util.ArrayList;
 import javax.ejb.Stateless;
 import javax.ejb.LocalBean;
+import javax.ejb.Singleton;
 
 /**
  *
  * @author guylangford-lee
  */
-@Stateless
+@Singleton
 @LocalBean
 public class Games {
     

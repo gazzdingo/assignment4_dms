@@ -28,7 +28,7 @@ public class Highscore {
 
     public void addWinner(String user,String score) {
         
-                winners.add(new Score<>(user,score));
+        winners.add(new Score<>(user,score));
         
     }
     
